@@ -23,10 +23,6 @@ $(call inherit-product, vendor/samsung/m21/m21-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
-# Screen H/W
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
 # V32
 PRODUCT_PACKAGES += libutils-v32
 

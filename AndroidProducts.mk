@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m21.mk
+    $(LOCAL_DIR)/aosp_m21.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m21-userdebug \
-    lineage_m21-user \
-    lineage_m21-eng
+    aosp_m21-userdebug \
+    aosp_m21-user \
+    aosp_m21-eng

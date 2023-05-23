@@ -18,7 +18,7 @@
 $(call inherit-product, device/samsung/m21/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -32,10 +32,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRIVATE_BUILD_DESC="m21nsxx-user 12 SP1A.210812.016 M215FXXU3CWB1 release-keys"
 
 ## Device configuration
-PRODUCT_NAME := lineage_m21
+PRODUCT_NAME := aosp_m21
 PRODUCT_DEVICE := m21
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M215F
 PRODUCT_MANUFACTURER := samsung
 
+ELIXIR_MAINTAINER := Royna
+ELIXIR_BUILD_TYPE := OFFICIAL
+BUILD_USERNAME := Royna
+BUILD_HOSTNAME := Elixir
 TARGET_BOOT_ANIMATION_RES := 1080
