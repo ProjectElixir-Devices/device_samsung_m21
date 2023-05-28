@@ -2,7 +2,7 @@ echo 'Starting to clone stuffs needed for your device'
 echo 'Cloning Common Tree [1/6]'
 # Samsung Exynos9611-Common Tree
 rm -rf device/samsung/universal9611-common
-git clone --depth=1 https://github.com/Exynos9611-Development/device_samsung_universal9611-common device/samsung/universal9611-common
+git clone --depth=1 https://github.com/Exynos9611-Development/device_samsung_universal9611-common device/samsung/universal9611-common -b lineage-20-efe
 
 echo 'Cloning M21 Vendor tree [2/6]'
 # Device Vendor Tree
