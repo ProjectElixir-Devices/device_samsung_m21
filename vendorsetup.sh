@@ -27,7 +27,7 @@ git clone https://github.com/Exynos9611-Development/hardware_samsung-extra_inter
 echo 'Cloning Misc S.LSI repo [6/6]'
 # Sepolicy
 rm -rf device/samsung_slsi
-git clone --depth=1 https://github.com/LineageOS/android_device_samsung_slsi_sepolicy device/samsung_slsi/sepolicy
+git clone --depth=1 https://github.com/roynatech2544/android_device_samsung_slsi_sepolicy device/samsung_slsi/sepolicy
 
 # Components
 rm -rf hardware/samsung_slsi
