@@ -20,8 +20,10 @@ git clone --depth=1 https://github.com/Exynos9611-Development/kernel_samsung_uni
 
 echo 'Cloning Hardware Samsung [5/6]'
 # Hardware Samsung
+mv hardware/samsung/nfc .
 rm -rf hardware/samsung
 git clone --depth=1 https://github.com/ProjectElixir-Devices/hardware_samsung hardware/samsung
+mv nfc hardware/samsung
 git clone https://github.com/Exynos9611-Development/hardware_samsung-extra_interfaces/ hardware/samsung-ext/interfaces
 
 echo 'Cloning Misc S.LSI repo [6/6]'
