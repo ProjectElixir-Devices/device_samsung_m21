@@ -17,6 +17,7 @@ echo 'Cloning Kernel tree [4/6]'
 # Kernel Tree
 rm -rf kernel/samsung
 git clone --depth=1 https://github.com/Exynos9611-Development/kernel_samsung_universal9611 kernel/samsung/universal9611
+(cd kernel/samsung/universal9611; git submodule update --init)
 
 echo 'Cloning Hardware Samsung [5/6]'
 # Hardware Samsung
